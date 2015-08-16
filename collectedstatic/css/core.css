@@ -1,0 +1,56 @@
+span {
+  color: red;
+}
+
+.uploadpanel {
+    background-color: #eeeeee;
+    padding: 30px;
+}
+
+#dropzone {
+    background: palegreen;
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+#dropzone.in {
+    width: 600px;
+    height: 200px;
+    line-height: 200px;
+    font-size: larger;
+}
+#dropzone.hover {
+    background: lawngreen;
+}
+#dropzone.fade {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    opacity: 1;
+}
+
+.bar {
+    height: 18px;
+    background: red;
+}
+
+table.testgrid {
+    margin-left: 16px;
+    border-collapse: collapse;
+    border: 1px solid #CCB;
+    width: 800px;
+}
+table.testgrid td, table.testgrid th {
+    padding: 5px;
+    border: 1px solid #E0E0E0;
+}
+table.testgrid th {
+    background: #E5E5E5;
+    text-align: left;
+}
+input.invalid {
+    background: red;
+    color: #FDFDFD;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "fileupload",
+  "version": "0.0.1",
+  "authors": [
+    "fangwei <fangswing123@163.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "blueimp-file-upload": "~9.11.0",
+    "jquery-cookie": "https://github.com/carhartl/jquery-cookie",
+    "editablegrid": "https://github.com/webismymind/editablegrid.git"
+  }
+}

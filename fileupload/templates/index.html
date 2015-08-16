@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+<div class="row uploadpanel">
+    <div class="span12">
+        <div id="dropzone" class="hero-unit text-center well fade">
+            <p>
+                Drag and Drop file to here or
+                <span class="btn btn-success fileinput-button">
+                    <i class="glyphicon glyphicon-plus"></i>
+                    <span>Select file...</span>
+                    <!-- The file input field used as target for the file upload widget -->
+                    <input id="fileupload" type="file" name="file">
+                </span> to import the allocation data.
+            </p>
+            <div id="progress">
+                <div class="bar" style="width: 0%;"></div>
+            </div>
+        </div>
+        <div class="span12">
+            <p id="resultInfo"  class="text-info"></p>
+		</div>
+    </div>
+    <div class="row">
+		<div class="span12">
+            <!-- Feedback message zone -->
+            <div id="message"></div>
+
+            <!-- Grid contents -->
+            <div id="tablecontent"></div>
+		</div>
+	</div>
+</div>
+
+</div>
+{% endblock %}
